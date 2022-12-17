@@ -180,10 +180,10 @@ class WorkoutMetricsStream(PelotonStream):
             "is_class_plan_shown",
             th.BooleanType
         ),
-        th.Property(
-            "segment_list",
-            th.ArrayType(th.ObjectType)
-        ),
+        # th.Property(
+        #     "segment_list",
+        #     th.ArrayType(th.ObjectType)
+        # ),
         th.Property(
             "seconds_since_pedaling_start",
             th.ArrayType(th.IntegerType)
@@ -192,10 +192,10 @@ class WorkoutMetricsStream(PelotonStream):
             "average_summaries",
             th.ArrayType(th.StringType)
         ),
-        th.Property(
-            "summaries",
-            th.ArrayType(th.ObjectType)
-        ),
+        # th.Property(
+        #     "summaries",
+        #     th.ArrayType(th.ObjectType)
+        # ),
         th.Property(
             "has_apple_watch_metrics",
             th.BooleanType
