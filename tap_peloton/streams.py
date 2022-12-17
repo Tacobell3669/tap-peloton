@@ -23,10 +23,10 @@ class WorkoutsStream(PelotonStream):
     # Optionally, you may also use `schema_filepath` in place of `schema`:
     # schema_filepath = SCHEMAS_DIR / "users.json"
     schema = th.PropertiesList(
-        th.Property(
-            "achievement_templates",
-            th.ArrayType(th.StringType),
-        ),
+        # th.Property(
+        #     "achievement_templates",
+        #     th.ArrayType(th.StringType),
+        # ),
         th.Property(
             "created",
             th.NumberType,
