@@ -182,7 +182,7 @@ class WorkoutMetricsStream(PelotonStream):
         ),
         th.Property(
             "segment_list",
-            th.ArrayType(th.ArrayType)
+            th.ArrayType(th.StringType)
         ),
         th.Property(
             "seconds_since_pedaling_start",
