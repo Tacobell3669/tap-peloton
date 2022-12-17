@@ -7,13 +7,13 @@ from singer_sdk import typing as th  # JSON schema typing helpers
 
 from tap_peloton.streams import (
     PelotonStream,
-    # WorkoutMetricsStream,
+    WorkoutMetricsStream,
     WorkoutsStream,
 )
 
 STREAM_TYPES = [
     WorkoutsStream,
-    # WorkoutMetricsStream,
+    WorkoutMetricsStream,
 ]
 
 
