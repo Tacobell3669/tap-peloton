@@ -180,10 +180,10 @@ class WorkoutMetricsStream(PelotonStream):
             "is_class_plan_shown",
             th.BooleanType
         ),
-        th.Property(
-            "segment_list",
-            th.ArrayType(th.StringType)
-        ),
+        # th.Property(
+        #     "segment_list",
+        #     th.ArrayType(th.StringType)
+        # ),
         th.Property(
             "seconds_since_pedaling_start",
             th.ArrayType(th.IntegerType)
