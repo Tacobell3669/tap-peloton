@@ -13,7 +13,7 @@ from tap_peloton.streams import (
 
 STREAM_TYPES = [
     WorkoutsStream,
-    WorkoutMetricsStream,
+    # WorkoutMetricsStream,
 ]
 
 
